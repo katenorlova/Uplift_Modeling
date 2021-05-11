@@ -1,0 +1,21 @@
+\begin{tabular}{llrrr}
+\toprule
+          &           &  CausalML &    SkLift &    EconML \\
+\midrule
+\multirow{3}{*}{X5 Retail Hero} & T-Learner &  0.052652 &  0.052652 &  0.037947 \\
+          & S-Learner &  0.039687 &  0.039687 &  0.037609 \\
+          & X-Learner &  0.037832 &  0.000000 &  0.037943 \\
+\cline{1-5}
+\multirow{3}{*}{Hillstrom} & T-Learner &  0.061025 &  0.061025 &  0.074477 \\
+          & S-Learner &  0.066777 &  0.066777 &  0.073998 \\
+          & X-Learner &  0.073056 &  0.000000 &  0.073056 \\
+\cline{1-5}
+\multirow{3}{*}{Kuusito} & T-Learner &  0.279182 &  0.279182 &  0.219092 \\
+          & S-Learner &  0.310037 &  0.310037 &  0.182822 \\
+          & X-Learner &  0.239497 &  0.000000 &  0.239497 \\
+\cline{1-5}
+\multirow{3}{*}{Synthetic} & T-Learner &  0.420191 &  0.420191 &  0.377444 \\
+          & S-Learner &  0.458112 &  0.458112 &  0.344704 \\
+          & X-Learner &  0.361133 &  0.000000 &  0.361133 \\
+\bottomrule
+\end{tabular}
